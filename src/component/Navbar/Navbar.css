@@ -1,14 +1,14 @@
 .container_navbar{
     width: 22vw;
     color: white;
-    height: 100vh;
+    height: 110vh;
     background: #B2422D;
     position: fixed;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-self: center;
-    overflow: none;
+    overflow: hidden;
     z-index: 1000000;
     
     /* font-family: "Dosis"; */
@@ -94,7 +94,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 3rem;
+        margin-top: 3rem;
     }
     .title_navbar,.navbar{
         display: none;
@@ -124,7 +124,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 3rem;
+        margin-top: 3rem;
     }
     .navbar{
         transition: 0.8s;
@@ -170,8 +170,8 @@
 }
 @media screen and (min-height:350px) and (max-height:500px){
     .container_navbar{
-        overflow-y: scroll;
-        overflow-x: hidden;
+        /* overflow-y: scroll; */
+        /* overflow-x: hidden; */
     }
 }
 
